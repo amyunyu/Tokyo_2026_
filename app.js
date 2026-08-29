@@ -56,7 +56,7 @@ const days = [
     ]
   },
   {
-    date: "秋葉原",
+    date: "9/14",
     weekday: "CITY",
     place: "MARUNOUCHI",
     title: "丸之內到秋葉原，城市與電氣街",
@@ -132,9 +132,9 @@ const days = [
         eyebrow: "川越",
         title: "川越冰川神社",
         summary: "川越一日遊的主要固定點。",
-        detail: "這一頁先保留成一日遊骨架；之後可以再補交通、參拜重點、御守與想拍的角度。",
+        detail: "川越冰川神社創建於約1500年前，是埼玉縣知名的祈求戀愛、家庭圓滿與結緣的總鎮守神社。",
         highlights: ["川越一日遊主線", "之後補交通與停留時間"],
-        map: mapSearch("川越冰川神社"),
+        map: "https://maps.app.goo.gl/hfQn3yuyCwY8SH1G7?g_st=ic",
         tags: ["SEE", "神社", "川越"],
         status: "confirmed"
       },
@@ -144,6 +144,23 @@ const days = [
         title: "一番街・藏造老街",
         summary: "把午後留給老街、商店與小吃。",
         detail: "不需要逐店排死，之後再把真正想去的店家放進 nearby 或獨立成卡片。",
+        nearby: [
+          {
+            name: "YOURMUSK｜ジョンズブレンド 川越店",
+            note: "香氛和風融合：以「香氣與和風之融合」為主題，結合當地文化與環保概念，推出大人的「綠茶」香氣及使用日本傳統和服布料進行改造的升級再造（Upcycle）香包袋。\n約15分鐘。",
+            map: "https://maps.app.goo.gl/XCurnnysygsCWEJN7?g_st=ic"
+          },
+          {
+            name: "glin coffee Youbiruten glin coffee 川越時の鐘店",
+            note: "位於川越市知名地標「時之鐘」旁的特色咖啡館，以自家烘焙精品咖啡與結合川越在地元素的輕食聞名。",
+            map: "https://maps.app.goo.gl/A1nmwLofmQT7R3Qh7?g_st=ic"
+          },
+          {
+            name: "やまとごころ川越",
+            note: "專營日本傳統香品與和風雜貨的特色專門店",
+              map: "https://maps.app.goo.gl/948nPaZX7xfDqgzy5?g_st=ic"
+          }
+        ],
         highlights: ["老街散步", "甜點與伴手禮", "保留逛街彈性"],
         map: mapSearch("川越 一番街"),
         tags: ["WALK", "SHOP", "川越"],
