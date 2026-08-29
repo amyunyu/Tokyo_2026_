@@ -153,7 +153,7 @@ const days = [
   },
 
   {
-    date: "DAY",
+    date: "原宿。表參道",
     weekday: "CITY",
     place: "HARAJUKU",
     title: "穿過表參道，慢慢逛到澀谷",
@@ -237,7 +237,7 @@ const days = [
   },
 
   {
-    date: "DAY",
+    date: "台場",
     weekday: "CITY",
     place: "ODAIBA",
     title: "台場，把一天留給灣岸",
@@ -261,7 +261,7 @@ const days = [
   },
 
   {
-    date: "DAY",
+    date: "池袋。大塚",
     weekday: "LOCAL",
     place: "IKEBUKURO",
     title: "池袋與大塚，住進東京的日常",
