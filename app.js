@@ -56,40 +56,6 @@ const days = [
     ]
   },
   {
-    date: "川越",
-    weekday: "TRIP",
-    place: "KAWAGOE",
-    title: "川越一日，走進小江戶",
-    showLodging: false,
-    lodging: "OMO5 東京大塚 by 星野集團",
-    lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
-    stops: [
-      {
-        time: "SEE",
-        eyebrow: "川越",
-        title: "川越冰川神社",
-        summary: "川越一日遊的主要固定點。",
-        detail: "這一頁先保留成一日遊骨架；之後可以再補交通、參拜重點、御守與想拍的角度。",
-        highlights: ["川越一日遊主線", "之後補交通與停留時間"],
-        map: mapSearch("川越冰川神社"),
-        tags: ["SEE", "神社", "川越"],
-        status: "confirmed"
-      },
-      {
-        time: "WALK",
-        eyebrow: "川越",
-        title: "一番街・藏造老街",
-        summary: "把午後留給老街、商店與小吃。",
-        detail: "不需要逐店排死，之後再把真正想去的店家放進 nearby 或獨立成卡片。",
-        highlights: ["老街散步", "甜點與伴手禮", "保留逛街彈性"],
-        map: mapSearch("川越 一番街"),
-        tags: ["WALK", "SHOP", "川越"],
-        status: "flex"
-      }
-    ]
-  },
-  {
     date: "秋葉原",
     weekday: "CITY",
     place: "MARUNOUCHI",
@@ -139,14 +105,48 @@ const days = [
         status: "flex"
       },
       {
-        time: "EAT",
+        time: "11:30",
         eyebrow: "秋葉原",
-        title: "LUIDA'S BAR",
-        summary: "先列入秋葉原候選行程。",
-        detail: "之後再確認最新營業方式、是否需要預約，以及實際位置。",
-        highlights: ["出發前再確認最新資訊"],
-        map: mapSearch("LUIDA'S BAR Tokyo"),
+        title: "露伊達酒店 LUIDA'S BAR - ルイーダの酒場",
+        summary: "已完成預約，Gmail",
+        detail: "",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/bXb4HrDL6F44qJ2L7?g_st=ic",
         tags: ["EAT", "秋葉原"],
+        status: "confirmed"
+      }
+    ]
+  },
+  {
+    date: "川越",
+    weekday: "TRIP",
+    place: "KAWAGOE",
+    title: "川越一日，走進小江戶",
+    showLodging: false,
+    lodging: "OMO5 東京大塚 by 星野集團",
+    lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
+    lodgingNote: "9/12–9/18 連住",
+    stops: [
+      {
+        time: "SEE",
+        eyebrow: "川越",
+        title: "川越冰川神社",
+        summary: "川越一日遊的主要固定點。",
+        detail: "這一頁先保留成一日遊骨架；之後可以再補交通、參拜重點、御守與想拍的角度。",
+        highlights: ["川越一日遊主線", "之後補交通與停留時間"],
+        map: mapSearch("川越冰川神社"),
+        tags: ["SEE", "神社", "川越"],
+        status: "confirmed"
+      },
+      {
+        time: "WALK",
+        eyebrow: "川越",
+        title: "一番街・藏造老街",
+        summary: "把午後留給老街、商店與小吃。",
+        detail: "不需要逐店排死，之後再把真正想去的店家放進 nearby 或獨立成卡片。",
+        highlights: ["老街散步", "甜點與伴手禮", "保留逛街彈性"],
+        map: mapSearch("川越 一番街"),
+        tags: ["WALK", "SHOP", "川越"],
         status: "flex"
       }
     ]
