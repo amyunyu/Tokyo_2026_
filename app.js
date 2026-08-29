@@ -55,9 +55,8 @@ const days = [
       }
     ]
   },
-
   {
-    date: "DAY",
+    date: "川越",
     weekday: "TRIP",
     place: "KAWAGOE",
     title: "川越一日，走進小江戶",
@@ -90,9 +89,8 @@ const days = [
       }
     ]
   },
-
   {
-    date: "DAY",
+    date: "秋葉原",
     weekday: "CITY",
     place: "MARUNOUCHI",
     title: "丸之內到秋葉原，城市與電氣街",
@@ -118,7 +116,24 @@ const days = [
         title: "秋葉原電氣街",
         summary: "把電器、模型與動漫店留成一段完整逛街時間。",
         detail: "之後再把真正想去的店家一間一間加入，不先塞滿。",
-        highlights: ["秋葉原主要逛街區", "保留大量彈性"],
+        nearby: [
+          {
+            name: "ecute 秋葉原",
+            note: "ecute 是日本JR東日本集團所推出的「車站站內商場」（Ekinaka）品牌，主打不用出車站剪票口，就能在站內享受購物、美食與購買伴手禮的便利性。",
+            map: "https://maps.app.goo.gl/gaC2mjT1S6BqySyh7"
+          },
+          {
+            name: "Animate 秋葉原",
+            note: "Animate是日本最大的動漫、漫畫、遊戲及周邊商品銷售連鎖店。",
+            map: "https://maps.app.goo.gl/LN7QGobKGg5jDwLh7"
+          },
+          {
+            name: "Super Potato 秋葉原店",
+            note: "位於日本東京秋葉原的知名二手懷舊遊戲（復古遊戲）專賣店，被許多電玩迷與老玩家視為朝聖的殿堂。",
+            map: "https://maps.app.goo.gl/YbSs2N8N65kx5LaL7"
+          }
+        ],
+        highlights: [""],
         map: mapSearch("秋葉原電氣街"),
         tags: ["SHOP", "秋葉原"],
         status: "flex"
