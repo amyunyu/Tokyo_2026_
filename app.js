@@ -181,10 +181,32 @@ const days = [
     stops: [
       {
         time: "SHOP",
+        eyebrow: "原宿",
+        title: "and ST TOKYO",
+        summary: "老辣妹推薦，服飾、三麗鷗",
+        detail: "老辣妹推薦品牌HARE、RAGEBLUE(褲子)、女裝：LOWRYS FARM、JEANASIS、PAGEBOYS",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/qTBwBWCu4yPLJVDWA?g_st=ic",
+        tags: ["WALK", "SHOP", "原宿"],
+        status: "flex"
+      },
+      {
+        time: "SHOP",
+        eyebrow: "原宿",
+        title: "Harry Potter Shop Harajuku ハリー・ポッター ショップ 原宿",
+        summary: "禁忌森林風格",
+        detail: "",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/FbHEkRz8AyBuHZrF9?g_st=ic",
+        tags: ["WALK", "SHOP", "原宿"],
+        status: "flex"
+      },
+      {
+        time: "SHOP",
         eyebrow: "表參道",
         title: "PORTER OMOTESANDO",
-        summary: "這趟東京想好好逛的一站，先把時間留給 PORTER。",
-        detail: "原宿・澀谷這天可以從表參道開始，把 PORTER 當作第一個主要購物點。\n\n這張卡之後可以再補：想看的系列、想買的品項、營業時間，以及是否有其他 PORTER 店需要比較。",
+        summary: "",
+        detail: "",
         highlights: [
           "主要購物點",
           "建議安排在逛街前段，體力和時間都比較充裕",
