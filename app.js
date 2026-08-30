@@ -132,7 +132,7 @@ const days = [
         eyebrow: "川越",
         title: "川越冰川神社",
         summary: "川越一日遊的主要固定點。",
-        detail: "川越冰川神社創建於約1500年前，是埼玉縣知名的祈求戀愛、家庭圓滿與結緣的總鎮守神社。\nよりそい守り，一對小御守袋。\nさくらさく守，「希望如櫻花一般，重要的緣分得以綻放。」而且每一個的顏色和花紋都不同。\n鯛みくじ，拿一根小釣竿，把鯛魚造型的御神籤釣起來。有代表一般運勢的紅色「一年安鯛」，也有偏向戀愛緣分的「あい鯛」。\n絵馬トンネル（繪馬隧道），大量參拜者多年留下來的祈願繪馬形成的一條通道。",
+        detail: "川越冰川神社創建於約1500年前，是埼玉縣知名的祈求戀愛、家庭圓滿與結緣的總鎮守神社。\n* よりそい守り，一對小御守袋。\n* さくらさく守，「希望如櫻花一般，重要的緣分得以綻放。」而且每一個的顏色和花紋都不同。\n* 鯛みくじ，拿一根小釣竿，把鯛魚造型的御神籤釣起來。有代表一般運勢的紅色「一年安鯛」，也有偏向戀愛緣分的「あい鯛」。\n* 絵馬トンネル（繪馬隧道），大量參拜者多年留下來的祈願繪馬形成的一條通道。",
         highlights: ["川越一日遊主線"],
         map: "https://maps.app.goo.gl/hfQn3yuyCwY8SH1G7?g_st=ic",
         tags: ["SEE", "神社", "川越"],
@@ -143,11 +143,11 @@ const days = [
         eyebrow: "川越",
         title: "一番街・藏造老街",
         summary: "把午後留給老街、商店與小吃。",
-        detail: "不需要逐店排死，之後再把真正想去的店家放進 nearby 或獨立成卡片。",
+        detail: "",
         nearby: [
           {
             name: "YOURMUSK｜ジョンズブレンド 川越店",
-            note: "香氛和風融合：以「香氣與和風之融合」為主題，結合當地文化與環保概念，推出大人的「綠茶」香氣及使用日本傳統和服布料進行改造的升級再造（Upcycle）香包袋。\n約15分鐘。",
+            note: "香包袋。\n香氛和風融合：以「香氣與和風之融合」為主題，結合當地文化與環保概念，推出大人的「綠茶」香氣及使用日本傳統和服布料進行改造的升級再造（Upcycle）香包袋。\n約15分鐘。",
             map: "https://maps.app.goo.gl/XCurnnysygsCWEJN7?g_st=ic"
           },
           {
@@ -168,7 +168,6 @@ const days = [
       }
     ]
   },
-
   {
     date: "原宿。表參道",
     weekday: "LOCAL",
@@ -316,34 +315,44 @@ const days = [
         detail: "",
         nearby: [
           {
+            name: "BEAMS CULTuART",
+            note: "北4F，日本知名潮流選物品牌BEAMS推出的文化與藝術企劃，名稱由 CULT（狂熱）、CULTURE（文化）、ART（藝術）結合而成。\n好喝的奶茶。",
+            map: ""
+          },
+          {
             name: "中川政七商店 NEWoMan高輪店",
-            note: "南五樓",
+            note: "南5F",
             map: ""
           },
           {
             name: "シヅカ洋菓子店 自然菓子研究所 ニュウマン高輪店",
-            note: "南一樓",
+            note: "南1F",
             map: ""
           },
           {
             name: "PORTER CLASSIC CINEMA（ポータークラシック シネマ）",
-            note: "北二樓",
+            note: "北2F",
+            map: ""
+          },
+          {
+            name: "LUFTBAUM 觀景台",
+            note: "北28、29F",
             map: ""
           }
         ],
         highlights: [""],
         map: "https://maps.app.goo.gl/W4bE22zd482WaLCW9?g_st=ic",
-        tags: ["SHOP", "GUNDAM", "台場"],
+        tags: [""],
         status: "confirmed"
       },
       {
         time: "SHOP",
         eyebrow: "台場",
         title: "THE GUNDAM BASE TOKYO",
-        summary: "台場目前最明確的目的地。",
-        detail: "先保留 Gundam Base 作為主卡，之後再補台場想逛的商場、餐廳或其他景點。",
+        summary: "",
+        detail: "",
         highlights: ["台場主目的地", "出發前再確認最新營業資訊"],
-        map: mapSearch("THE GUNDAM BASE TOKYO"),
+        map: "https://maps.app.goo.gl/dWFrH2peryE7JVtu5",
         tags: ["SHOP", "GUNDAM", "台場"],
         status: "confirmed"
       }
