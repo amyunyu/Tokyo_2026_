@@ -314,6 +314,23 @@ const days = [
         title: "NEWoMan高輪",
         summary: "",
         detail: "",
+        nearby: [
+          {
+            name: "中川政七商店 NEWoMan高輪店",
+            note: "南五樓",
+            map: ""
+          },
+          {
+            name: "シヅカ洋菓子店 自然菓子研究所 ニュウマン高輪店",
+            note: "南一樓",
+            map: ""
+          },
+          {
+            name: "PORTER CLASSIC CINEMA（ポータークラシック シネマ）",
+            note: "北二樓",
+            map: ""
+          }
+        ],
         highlights: [""],
         map: "https://maps.app.goo.gl/W4bE22zd482WaLCW9?g_st=ic",
         tags: ["SHOP", "GUNDAM", "台場"],
