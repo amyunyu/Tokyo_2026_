@@ -229,6 +229,29 @@ const days = [
         status: "confirmed"
       },
       {
+        time: "EAT。CAFE",
+        eyebrow: "原宿",
+        title: "",
+        summary: "",
+        detail: "",
+        nearby: [
+          {
+            name: "皮耶艾曼 青山店 ピエール・エルメ・パリ 青山",
+            note: "馬卡龍",
+            map: "https://maps.app.goo.gl/fmC2nfWF7zLBDbUB8?g_st=ic"
+          },
+          {
+            name: "Satella 喫茶サテラ",
+            note: "喫茶店百名店",
+            map: "https://maps.app.goo.gl/ZqPrKThBQFrH44ZM8?g_st=ic"
+          }
+        ],
+        highlights: [""],
+        map: "",
+        tags: ["WALK", "SHOP", "原宿"],
+        status: "flex"
+      },
+      {
         time: "WALK",
         eyebrow: "原宿",
         title: "裏原宿",
@@ -285,6 +308,17 @@ const days = [
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
     lodgingNote: "9/12–9/18 連住",
     stops: [
+      {
+        time: "SHOP",
+        eyebrow: "高輪",
+        title: "NEWoMan高輪",
+        summary: "",
+        detail: "",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/W4bE22zd482WaLCW9?g_st=ic",
+        tags: ["SHOP", "GUNDAM", "台場"],
+        status: "confirmed"
+      },
       {
         time: "SHOP",
         eyebrow: "台場",
