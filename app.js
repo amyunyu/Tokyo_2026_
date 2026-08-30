@@ -57,7 +57,7 @@ const days = [
   },
   {
     date: "9/14",
-    weekday: "CITY",
+    weekday: "MON",
     place: "MARUNOUCHI",
     title: "丸之內到秋葉原，城市與電氣街",
     showLodging: false,
@@ -171,7 +171,7 @@ const days = [
 
   {
     date: "原宿。表參道",
-    weekday: "CITY",
+    weekday: "LOCAL",
     place: "HARAJUKU",
     title: "穿過表參道，慢慢逛到澀谷",
     showLodging: false,
@@ -299,8 +299,8 @@ const days = [
   },
 
   {
-    date: "台場",
-    weekday: "CITY",
+    date: "高輪。台場",
+    weekday: "LOCAL",
     place: "ODAIBA",
     title: "台場，把一天留給灣岸",
     showLodging: false,
