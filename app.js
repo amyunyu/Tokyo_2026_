@@ -58,7 +58,7 @@ const days = [
   {
     date: "9/14",
     weekday: "MON",
-    place: "MARUNOUCHI",
+    place: "秋葉原",
     title: "丸之內到秋葉原，城市與電氣街",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
