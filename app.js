@@ -11,14 +11,14 @@ function mapSearch(place) {
 
 const days = [
   {
-    date: "09.12",
-    weekday: "SAT",
+    date: "09.13",
+    weekday: "SUN",
     place: "ARRIVAL",
     title: "抵達東京，從大塚開始",
     showLodging: true,
     lodging: "OMO5 東京大塚 by 星野集團",
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
+    lodgingNote: "9/13–9/19 連住",
     stops: [
       {
         time: "FLIGHT",
@@ -37,7 +37,7 @@ const days = [
         title: "OMO5 東京大塚",
         summary: "這次東京 7 天 6 夜的固定住宿。",
         detail: "抵達大塚後先完成入住、放行李，再依體力決定要不要在大塚站周邊散步或吃晚餐。",
-        highlights: ["9/12–9/18 連住", "不用每天搬行李", "第一晚保持輕鬆"],
+        highlights: ["9/13–9/19 連住", "不用每天搬行李", "第一晚保持輕鬆"],
         map: mapSearch("OMO5 東京大塚 by 星野集團"),
         tags: ["STAY", "大塚"],
         status: "confirmed"
@@ -125,7 +125,7 @@ const days = [
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
+    lodgingNote: "9/13–9/19 連住",
     stops: [
       {
         time: "SEE",
@@ -176,7 +176,7 @@ const days = [
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
+    lodgingNote: "9/13–9/19 連住",
     stops: [
       {
         time: "SHOP",
@@ -305,7 +305,7 @@ const days = [
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
+    lodgingNote: "9/13–9/19 連住",
     stops: [
       {
         time: "SHOP",
@@ -367,7 +367,7 @@ const days = [
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
     lodgingMap: mapSearch("OMO5 東京大塚 by 星野集團"),
-    lodgingNote: "9/12–9/18 連住",
+    lodgingNote: "9/13–9/19 連住",
     stops: [
       {
         time: "SEE",
@@ -418,8 +418,8 @@ const days = [
   },
 
   {
-    date: "09.18",
-    weekday: "FRI",
+    date: "09.19",
+    weekday: "SAT",
     place: "DEPARTURE",
     title: "最後一天，回到成田",
     showLodging: false,
