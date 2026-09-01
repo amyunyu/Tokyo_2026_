@@ -401,15 +401,84 @@ const days = [
         eyebrow: "大塚",
         title: "北斎",
         summary: "先列入大塚周邊餐廳候選。",
-        map: mapSearch("北斎 大塚 東京"),
+        nearby: [
+          {
+              name: "Katchar Batchar カッチャルバッチャル",
+                note: "印度咖哩，2026百名店",
+            map: "https://maps.app.goo.gl/oXJZDhvhKQuZaJd96?g_st=ic"
+          },
+          {
+            name: "MENSHO",
+            note: "拉麵，看起來像創意拉麵？",
+            map: "https://maps.app.goo.gl/QpFMM1LkMNFnJURb7?g_st=ic"
+          },
+          {
+            name: "Yappari India やっぱりインディア 大塚本店",
+            note: "印度咖哩，2026百名店，比較近",
+            map: "https://maps.app.goo.gl/v9Rnb6gHw5XC16Yy8?g_st=ic"
+          },
+          {
+            name: "麺創庵 砂田",
+            note: "拉麵",
+            map: "https://maps.app.goo.gl/FBhkYjygRsf4pfuC7?g_st=ic"
+          },
+          {
+            name: "焼肉冷麺だいじゅ",
+              note: "燒肉店",
+            map: "https://maps.app.goo.gl/3hwqgnvmDcQryCRZA?g_st=ic"
+          },
+          {
+            name: "Fruits Sugi フルーツ すぎ",
+              note: "水果聖代，需預約",
+            map: "https://maps.app.goo.gl/gTrznjiG2zdZsXcp8?g_st=ic"
+          },
+          {
+            name: "Hokusai 酒肴 北斎 大塚のれん街",
+              note: "老辣妹推薦居酒屋",
+            map: "https://maps.app.goo.gl/MJwMonSvzQ9MYy4E9?g_st=ic"
+          }
+          ],
+        map: "https://maps.app.goo.gl/MJwMonSvzQ9MYy4E9?g_st=ic",
         tags: ["EAT", "大塚"],
         status: "flex"
       },
       {
         time: "EAT",
         eyebrow: "池袋",
-        title: "かぶと",
-        summary: "先列入池袋餐廳候選。",
+        title: "池袋飲食",
+        summary: "",
+        nearby: [
+          {
+              name: "Suzumeya すずめや",
+                note: "銅鑼燒、和菓子，星期四五六營業",
+            map: "https://maps.app.goo.gl/fmC2nfWF7zLBDbUB8?g_st=ic"
+          },
+          {
+            name: "麺屋 Hulu-lu",
+            note: "拉麵",
+            map: "https://maps.app.goo.gl/ET5cdmhDZQkAR4cSA?g_st=ic"
+          },
+          {
+            name: "MENYA NAKAGAWA",
+            note: "拉麵",
+            map: "https://maps.app.goo.gl/ineK8hP9dU5EfBTK7?g_st=ic"
+          },
+          {
+            name: "麺処 花田 池袋店",
+            note: "拉麵",
+            map: "https://maps.app.goo.gl/E8BhnHJCZqZRek1h7?g_st=ic"
+          },
+          {
+            name: "COFFEE VALLEY",
+              note: "咖啡店，2025百名，Google Maps評價有些微妙",
+            map: "https://maps.app.goo.gl/xLrVKTwotAQHYxDS7?g_st=ic"
+          },
+          {
+            name: "No.18 漢堡 No.18ハンバーガー",
+              note: "漢堡店，2026百名店，11:00-16:00",
+            map: "https://maps.app.goo.gl/o7fXNeBiMGrjS7BU8?g_st=ic"
+          }
+        ],
         map: mapSearch("かぶと 池袋"),
         tags: ["EAT", "池袋"],
         status: "flex"
