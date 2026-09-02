@@ -37,7 +37,7 @@ const days = [
         title: "OMO5 東京大塚",
         summary: "這次東京 7 天 6 夜的固定住宿。",
         detail: "抵達大塚後先完成入住、放行李，再依體力決定要不要在大塚站周邊散步或吃晚餐。",
-        highlights: ["9/13–9/19 連住", "不用每天搬行李", "第一晚保持輕鬆"],
+        highlights: ["9/13–9/19 連住"],
         map: mapSearch("OMO5 東京大塚 by 星野集團"),
         tags: ["STAY", "大塚"],
         status: "confirmed"
@@ -399,7 +399,7 @@ const days = [
       {
         time: "EAT",
         eyebrow: "大塚",
-        title: "北斎",
+        title: "大塚飲食",
         summary: "先列入大塚周邊餐廳候選。",
         nearby: [
           {
