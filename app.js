@@ -207,33 +207,35 @@ const days = [
         summary: "",
         detail: "",
         highlights: [
-          "主要購物點",
-          "建議安排在逛街前段，體力和時間都比較充裕",
-          "之後可往裏原宿、Cat Street 方向慢慢走"
-        ],
-        nearby: [
-          {
-            name: "裏原宿",
-            note: "PORTER 之後可以順著神宮前巷弄慢慢往原宿內側逛。",
-            map: mapSearch("裏原宿 東京")
-          },
-          {
-            name: "Cat Street",
-            note: "可接著往澀谷方向散步，沿途以服飾、選物店為主。",
-            map: mapSearch("Cat Street Tokyo")
-          }
+          "主要購物點"
         ],
         map: mapSearch("PORTER OMOTESANDO"),
         tags: ["SHOP", "PORTER", "表參道"],
         status: "confirmed"
       },
       {
+        time: "SHOP",
+        eyebrow: "澀谷",
+        title: "澀谷LOFT 生活雜貨專門店 渋谷ロフト",
+        summary: "勇者鬥惡龍 × Loft 商品快閃活動 2026",
+        detail: "",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/RP3HDiMRommfJAPVA?g_st=ic",
+        tags: ["WALK", "SHOP"],
+        status: "confirmed"
+      },
+      {
         time: "EAT。CAFE",
-        eyebrow: "原宿",
+        eyebrow: "原宿。表參道。澀谷",
         title: "",
         summary: "",
         detail: "",
         nearby: [
+          {
+            name: "tonkatsu.jp表参道",
+            note: "炸豬排，痣作人推薦",
+            map: "https://maps.app.goo.gl/mFCpW61xL7e97bZPA?g_st=ic"
+          },
           {
             name: "皮耶艾曼 青山店 ピエール・エルメ・パリ 青山",
             note: "馬卡龍",
@@ -247,7 +249,7 @@ const days = [
         ],
         highlights: [""],
         map: "",
-        tags: ["WALK", "SHOP", "原宿"],
+        tags: [""],
         status: "flex"
       },
       {
