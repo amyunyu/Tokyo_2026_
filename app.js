@@ -120,7 +120,7 @@ const days = [
   {
     date: "川越",
     weekday: "TRIP",
-    place: "KAWAGOE",
+    place: "",
     title: "川越一日，走進小江戶",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
@@ -169,9 +169,9 @@ const days = [
     ]
   },
   {
-    date: "原宿。表參道",
+    date: "原宿。表參道。澀谷",
     weekday: "LOCAL",
-    place: "HARAJUKU",
+    place: "",
     title: "穿過表參道，慢慢逛到澀谷",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
@@ -202,6 +202,17 @@ const days = [
       },
       {
         time: "SHOP",
+        eyebrow: "原宿",
+        title: "B-SIDE LABEL 原宿店",
+        summary: "貼紙宇宙",
+        detail: "",
+        highlights: [""],
+        map: "https://maps.app.goo.gl/qEdY9Np68hJgxB5A9",
+        tags: ["WALK", "SHOP", "原宿"],
+        status: "flex"
+      },
+      {
+        time: "SHOP",
         eyebrow: "表參道",
         title: "PORTER OMOTESANDO",
         summary: "",
@@ -217,8 +228,8 @@ const days = [
         time: "SHOP",
         eyebrow: "澀谷",
         title: "澀谷LOFT 生活雜貨專門店 渋谷ロフト",
-        summary: "勇者鬥惡龍 × Loft 商品快閃活動 2026",
-        detail: "",
+        summary: "勇者鬥惡龍、迷你日曆",
+        detail: "勇者鬥惡龍 × Loft 商品快閃活動 2026\neric 迷你日曆 Cafe Latte",
         highlights: [""],
         map: "https://maps.app.goo.gl/RP3HDiMRommfJAPVA?g_st=ic",
         tags: ["WALK", "SHOP"],
@@ -251,58 +262,13 @@ const days = [
         map: "",
         tags: [""],
         status: "flex"
-      },
-      {
-        time: "WALK",
-        eyebrow: "原宿",
-        title: "裏原宿",
-        summary: "離開大路，進巷子慢慢找店。",
-        detail: "這裡不需要設定明確的「完成景點」，比較適合當成自由散步區。\n\n看到喜歡的服飾、選物、雜貨店就進去，重點不是打卡，而是把時間留給臨時發現。",
-        highlights: ["不用排固定時間", "以巷弄購物和臨時發現為主", "可依當天體力決定停留多久"],
-        map: mapSearch("裏原宿 東京"),
-        tags: ["WALK", "SHOP", "原宿"],
-        status: "flex"
-      },
-      {
-        time: "WALK / SHOP",
-        eyebrow: "神宮前",
-        title: "Cat Street",
-        summary: "沿著神宮前一路往澀谷走，把移動本身變成逛街。",
-        detail: "Cat Street 很適合放在原宿與澀谷之間，作為這一天的主要步行軸線。\n\n不需要事先規定每一間店都要進去，可以把真正想逛的店另外做成卡片，其餘保留自由。",
-        highlights: ["原宿 → 澀谷的自然步行路線", "沿途可穿插購物與咖啡", "適合保留大量彈性"],
-        map: mapSearch("Cat Street Tokyo"),
-        tags: ["WALK", "SHOP", "神宮前"],
-        status: "flex"
-      },
-      {
-        time: "COFFEE",
-        eyebrow: "神宮前",
-        title: "Satella",
-        summary: "逛街途中安排一段坐下來喝咖啡的時間。",
-        detail: "這張卡的定位不是一定要幾點抵達，而是當作原宿・澀谷這天的休息點。\n\n之後確認店家最新營業資訊後，可以再補營業時間、休息日與推薦品項。",
-        highlights: ["逛街中途休息", "不綁固定時間", "之後補最新營業時間與想喝的品項"],
-        map: mapSearch("Satella Tokyo"),
-        tags: ["COFFEE", "神宮前"],
-        status: "flex"
-      },
-      {
-        time: "AREA",
-        eyebrow: "澀谷",
-        title: "SHIBUYA",
-        summary: "最後留給澀谷，不排滿，想逛什麼當天再決定。",
-        detail: "原宿、神宮前一路走到澀谷之後，後半段不需要再塞很多固定景點。\n\n之後如果找到真正想去的店，再一間一間加進這個區域；目前先保留成自由購物與吃飯的收尾區。",
-        highlights: ["不綁固定店家", "可依當天購物進度調整", "晚餐也可以留在澀谷再決定"],
-        map: mapSearch("Shibuya Tokyo"),
-        tags: ["AREA", "SHOP", "澀谷"],
-        status: "flex"
       }
     ]
   },
-
   {
     date: "高輪。台場",
     weekday: "LOCAL",
-    place: "ODAIBA",
+    place: "",
     title: "台場，把一天留給灣岸",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
@@ -360,11 +326,10 @@ const days = [
       }
     ]
   },
-
   {
     date: "池袋。大塚",
     weekday: "LOCAL",
-    place: "IKEBUKURO",
+    place: "",
     title: "池袋與大塚，住進東京的日常",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
