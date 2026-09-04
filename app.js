@@ -445,6 +445,15 @@ const days = [
         status: "flex"
       },
       {
+        time: "SHOPPING",
+        eyebrow: "池袋",
+        title: "池袋LOFT 生活雜貨專門店 池袋ロフト",
+        summary: "eric 迷你日曆 Cafe Latte。位在 LINKS IKEBUKURO 9～12 樓",
+        map: "https://maps.app.goo.gl/TSSJoFRWWqCf1Ljb9?g_st=ic",
+        tags: [""],
+        status: "flex"
+      },
+      {
         time: "EAT",
         eyebrow: "池袋",
         title: "池袋飲食",
