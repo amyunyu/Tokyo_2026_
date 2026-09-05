@@ -11,7 +11,7 @@ function mapSearch(place) {
 
 const days = [
   {
-    date: "09.13",
+    date: "09/13",
     weekday: "SUN",
     place: "ARRIVAL",
     title: "抵達東京，從大塚開始",
@@ -171,7 +171,7 @@ const days = [
   {
     date: "原宿。表參道。澀谷",
     weekday: "LOCAL",
-    place: "",
+    place: "不是9/15",
     title: "穿過表參道，慢慢逛到澀谷",
     showLodging: false,
     lodging: "OMO5 東京大塚 by 星野集團",
@@ -244,7 +244,7 @@ const days = [
         nearby: [
           {
             name: "tonkatsu.jp表参道",
-            note: "炸豬排，痣作人推薦",
+            note: "週一、二公休，炸豬排，痣作人推薦",
             map: "https://maps.app.goo.gl/mFCpW61xL7e97bZPA?g_st=ic"
           },
           {
